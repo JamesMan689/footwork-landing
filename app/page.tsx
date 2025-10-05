@@ -38,7 +38,7 @@ export default function Home() {
             <div>Soccer Better</div>
           </h1>
           <p className="text-slate-500 font-medium text-lg mt-4">
-            Helping 90+ players in America and Europe train soccer smarter and better.
+            Helping 100+ players in America and Europe train soccer smarter and better.
           </p>
           <div className="flex items-center gap-4 mt-6">
             <a 
