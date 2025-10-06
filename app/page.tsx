@@ -40,12 +40,12 @@ export default function Home() {
           <p className="text-slate-500 font-medium text-lg mt-4">
             Helping 100+ players in America and Europe train soccer smarter and better.
           </p>
-          <div className="flex items-center gap-4 mt-6">
+          <div className="mt-6">
             <a 
               href="https://apps.apple.com/us/app/footwork-train-soccer-better/id6751991495"
               target="_blank"
               rel="noopener noreferrer"
-              className="transition-transform duration-300 hover:scale-105 cursor-pointer"
+              className="transition-transform duration-300 hover:scale-105 cursor-pointer inline-block mr-4"
             >
               <Image
                 src="/applestorebutton.svg"
@@ -54,9 +54,19 @@ export default function Home() {
                 height={60}
               />
             </a>
-            <p className="text-slate-500 text-sm font-medium">
-              Coming to Android Soon!
-            </p>
+            <a 
+              href="https://play.google.com/store/apps/details?id=app.getfootwork.mobile&pli=1"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="transition-transform duration-300 hover:scale-105 cursor-pointer inline-block"
+            >
+              <Image
+                src="/GetItOnGooglePlay_Badge_Web_color_English.png"
+                alt="Get it on Google Play"
+                width={200}
+                height={60}
+              />
+            </a>
           </div>
         </div>
       </div>
